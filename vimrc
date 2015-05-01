@@ -7,14 +7,14 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Move plugin - use control+shift+j to move a line down, or control+shift+k to move up
-let g:move_key_modifier='C-S'
+" Move plugin - use control+j to move a line down, or control+k to move up
+let g:move_key_modifier='C'
 
 " vim-multiple-cursors
 let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_next_key='<C-S-n>' " control+N to select next word under your cursor/selection/
-let g:multi_cursor_prev_key='<C-S-p>' " control+P to go back
-let g:multi_cursor_skip_key='<C-S-x>' " control+X to skip a selection
+let g:multi_cursor_next_key='<C-n>' " control+N to select next word under your cursor/selection/
+let g:multi_cursor_skip_key='<C-x>' " control+X to skip a selection
+let g:multi_cursor_prev_key='<C-p>' " control+P to go back
 let g:multi_cursor_quit_key='<Esc>'   " escape to quit
 
 " Emmet
@@ -22,7 +22,7 @@ let g:user_emmet_expandabbr_key='<tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-e> :NERDTreeToggle<CR>
 
 " Airline
 set laststatus=2
