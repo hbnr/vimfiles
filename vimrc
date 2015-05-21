@@ -7,6 +7,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+let g:gitgutter_max_signs=9000
+
 " Move plugin - use control+j to move a line down, or control+k to move up
 let g:move_key_modifier='C'
 
