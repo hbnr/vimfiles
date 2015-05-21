@@ -31,9 +31,6 @@
 [submodule "bundle/vim-bufferline"]
 	path = bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline
-[submodule "bundle/vim-css"]
-	path = bundle/vim-css
-	url = https://github.com/lepture/vim-css.git
 [submodule "bundle/vim-css3-syntax"]
 	path = bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
