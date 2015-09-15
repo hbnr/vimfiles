@@ -43,6 +43,9 @@ let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
 let g:syntastic_auto_jump=0
 
+map <C-d> :SyntasticToggleMode<CR>
+
+
 " Theme colors: Badwolf - solarized
 " let g:solarized_termcolors=256 " solarized
 " set background=dark " solarized
