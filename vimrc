@@ -63,7 +63,7 @@ vmap <Leader>P "+P
 
 " Control P
 let g:ctrlp_working_path_mode='a'
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip " ignore certain files for quicker control p search
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.git,*/node_modules " ignore certain files for quicker control p search
 
 " No plugin settings
 set autoindent                 " Copy indent from last line when starting new line.
@@ -99,11 +99,11 @@ endif
 " space+tab to switch between tab or space indentation
 nmap <leader><tab> mz:execute TabToggle()<CR>'z
 
-" Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+" Better split switching (Space-j, Space-k, Space-h, Space-l)
+map <leader>j <C-W>j
+map <leader>k <C-W>k
+map <leader>h <C-W>h
+map <leader>l <C-W>l
 
 " Local dirs
 set backupdir=~/.vim/backups
