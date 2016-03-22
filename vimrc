@@ -33,17 +33,17 @@ set guifont=Anonymous\ Pro\ for\ Powerline " make sure to escape the spaces in t
 let g:airline#extensions#tabline#enabled=1
 
 " Syntastic
-set statusline+=%warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list=1
-let g:syntastic_loc_list_height=5
-let g:syntastic_auto_loc_list=1
-let g:syntastic_check_on_open=1
-let g:syntastic_check_on_wq=0
-let g:syntastic_auto_jump=0
+" set statusline+=%warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" let g:syntastic_always_populate_loc_list=1
+" let g:syntastic_loc_list_height=5
+" let g:syntastic_auto_loc_list=1
+" let g:syntastic_check_on_open=1
+" let g:syntastic_check_on_wq=0
+" let g:syntastic_auto_jump=0
 
-map <C-d> :SyntasticToggleMode<CR>
+" map <C-d> :SyntasticToggleMode<CR>
 
 
 " Theme colors: Badwolf - solarized
