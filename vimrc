@@ -80,7 +80,7 @@ set number                     " Enable line numbers.
 set relativenumber " Use relative line numbers. Current line is still in status bar.
 au BufReadPost,BufNewFile * set relativenumber
 " set splitbelow " New window goes below
-" set splitright " New window goes right
+set splitright " New window goes right
 
 " Indenting
 set tabstop=4
