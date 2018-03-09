@@ -55,3 +55,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-freemaker.vim"]
+	path = bundle/vim-freemaker.vim
+	url = https://github.com/andreshazard/vim-freemarker.git
