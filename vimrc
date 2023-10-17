@@ -49,7 +49,7 @@ let g:airline#extensions#tabline#enabled=1
 " Theme colors: Badwolf - solarized
 " let g:solarized_termcolors=256 " solarized
 " set background=dark " solarized
-colorscheme badwolf
+"colorscheme badwolf
 
 " Change mapleader
 let mapleader="\<Space>"
