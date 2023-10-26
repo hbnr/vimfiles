@@ -135,3 +135,5 @@ imap <C-o> <esc>o
 " Stop command history shortcut
 map q: :q
 
+" javascript libraries syntax
+let g:used_javascript_libs='angularjs'
